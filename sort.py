@@ -64,6 +64,7 @@ def quick_sort(arr):
     return quick_sort(left) + equal + quick_sort(right)
 
 
+# 매개 변수로 받은 세 값 중 중간 값을 찾는 메소드입니다.
 def _find_middle_value(a, b, c):
     if (a <= b <= c) or (c <= b <= a):
         return b
